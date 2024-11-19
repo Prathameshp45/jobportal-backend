@@ -1,0 +1,44 @@
+Create a Job Application 
+http://localhost:5000/api/application/apply/63ad0e6c62d45b1a8ad0f7d9
+
+
+ Get All Applications 
+ http://localhost:5000/api/application/applications
+
+Get Application by ID 
+http://localhost:5000/api/application/applications/{applicationId}
+
+ Update Application 
+ http://localhost:5000/api/application/applications/{applicationId}
+
+ Delete Application
+ http://localhost:5000/api/application/applications/{applicationId}
+
+
+ //
+  Create a Job
+  http://localhost:5000/api/jobs/create
+  {
+  "jobTitle": "Software Engineer",
+  "companyName": "Tech Corp",
+  "location": "New York, NY",
+  "description": "We are looking for talented developers.",
+  "requirements": "Proficiency in React and Node.js.",
+  "salary": "$100,000/year"
+}
+
+Get All Jobs
+http://localhost:5000/api/jobs
+
+ Get Job by ID 
+ http://localhost:5000/api/jobs/{id}
+
+  Update Job 
+  http://localhost:5000/api/jobs/{id}
+  {
+  "salary": "$110,000/year"
+}
+
+
+Delete Job 
+http://localhost:5000/api/jobs/{id}
